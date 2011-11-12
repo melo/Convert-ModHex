@@ -57,8 +57,8 @@ __END__
 =head1 DESCRIPTION
 
 This module provides utility functions that you can use to convert between
-L<http://www.yubico.com/modhex-calculator|ModHex encoding> (as used by the
-L<http://www.yubico.com/yubikey|Yubikey tokens>).
+L<ModHex encoding|http://www.yubico.com/modhex-calculator> (as used by the
+L<Yubikey tokens|http://www.yubico.com/yubikey>).
 
 
 =head1 FUNCTIONS
