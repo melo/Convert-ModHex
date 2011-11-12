@@ -46,8 +46,9 @@ __END__
 
     use Convert::ModHex qw( modhex2hex modhex2dec hex2modhex dec2modhex );
     
-    $hex = modhex2hex($modhex);
-    $dec = modhex2dec($modhex);
+    my $modhex = 'ccbc';
+    my $hex = modhex2hex($modhex);
+    my $dec = modhex2dec($modhex);
     
     $modhex = hex2modhex($hex);
     $modhex = dec2modhex($dec);
